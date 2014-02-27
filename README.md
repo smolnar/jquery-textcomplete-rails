@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jquery-textcomplete-rails
+    $ gem install jquery-textcomplete
 
 ## Usage
 
@@ -28,7 +28,7 @@ Include required javascripts in you `application.js` file:
 Include required stylesheets into your `application.css` file:
 ```
 ...
-//= require jquery-textcomplete-rails
+//= require jquery-textcomplete
 ...
 ```
 
