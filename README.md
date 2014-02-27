@@ -34,6 +34,10 @@ Include required stylesheets into your `application.css` file:
 
 For more options and style customization, please, see [jQuery Textcomplete documentation](https://github.com/yuku-t/jquery-textcomplete).
 
+## Testing
+
+Go to `spec/dummy` and run `bundle`. After bundling, run specs with `bundle exec rspec`.
+
 ## Contributing
 
 1. Fork it
