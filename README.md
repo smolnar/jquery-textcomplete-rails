@@ -14,14 +14,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jquery-textcomplete
+    $ gem install jquery-textcomplete-rails
 
 ## Usage
 
 Include required javascripts in you `application.js` file:
 ```javascript
 ...
-//= require jquery-textcomplete-rails
+//= require jquery-textcomplete
 ...
 ```
 
