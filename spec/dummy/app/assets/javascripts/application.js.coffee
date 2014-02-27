@@ -13,5 +13,5 @@
 #= require jquery
 #= require jquery_ujs
 #= require turbolinks
-#= require jquery-textcomplete-rails
+#= require jquery-textcomplete
 #= require_tree .
