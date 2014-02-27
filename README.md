@@ -1,6 +1,6 @@
-# Jquery::Textcomplete::Rails
+# jQuery Textcomplete for Rails
 
-TODO: Write a gem description
+Provides integration of [jQuery Textcomplete](https://github.com/yuku-t/jquery-textcomplete) with Rails Asset Pipeline.
 
 ## Installation
 
@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include required javascripts in you `application.js` file:
+```javascript
+...
+//= require jquery-textcomplete-rails
+...
+```
+
+Include required stylesheets into your `application.css` file:
+```
+...
+//= require jquery-textcomplete-rails
+...
+```
+
+For more options and style customization, please, see [jQuery Textcomplete documentation](https://github.com/yuku-t/jquery-textcomplete).
 
 ## Contributing
 
