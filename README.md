@@ -26,7 +26,7 @@ Include required javascripts in you `application.js` file:
 ```
 
 Include required stylesheets into your `application.css` file:
-```
+```sass
 ...
 //= require jquery-textcomplete
 ...
