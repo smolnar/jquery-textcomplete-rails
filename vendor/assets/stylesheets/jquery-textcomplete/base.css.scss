@@ -1,19 +1,29 @@
-/*!
- * jQuery.textcomplete.css
- *
- * Repositiory: https://github.com/yuku-t/jquery-textcomplete
- * License:     MIT
- * Author:      Yuku Takahashi
- */
+// Sample
 
-.textcomplete-wrapper {
-  .dropdown-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.dropdown-menu {
+  border: 1px solid #ddd;
+  background-color: #fff;
+
+  // SHOULD not modify
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  // end
+
+  li {
+    border-top: 1px solid #ddd;
+    padding: 2px 5px;
+
+    &:first-child {
+      border-top: none;
+    }
+
+    &:hover, &.active {
+      background-color: #6eb7db;
+    }
   }
 
-  .dropdown-menu a:hover {
-    cursor: pointer;
+   a:hover {
+    cursor: pointer; // SHOULD not modify
   }
 }
