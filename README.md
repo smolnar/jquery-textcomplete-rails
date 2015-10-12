@@ -1,5 +1,7 @@
 # jQuery Textcomplete for Rails
 
+[![Build Status](https://travis-ci.org/smolnar/jquery-textcomplete-rails.svg?branch=master)](https://travis-ci.org/smolnar/jquery-textcomplete-rails)
+
 Provides integration of [jQuery Textcomplete](https://github.com/yuku-t/jquery-textcomplete) with Rails Asset Pipeline.
 
 ## Installation
