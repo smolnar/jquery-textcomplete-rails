@@ -1,9 +1,6 @@
 language: ruby
 sudo: false
-bundler_args: --without development
 before_script:
-  - cd spec/dummy
-  - bundle install
+  - cd spec/dummy && bundle install --without development
 script:
-  - cd spec/dummy
-  - bundle exec rspec spec
+  - cd spec/dummy && bundle exec rspec spec
