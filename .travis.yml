@@ -3,3 +3,4 @@ sudo: false
 bundler_args: --without development
 before_script:
   - bundle install
+script: bundle exec rspec spec
