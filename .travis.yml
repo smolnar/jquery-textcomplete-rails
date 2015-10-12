@@ -1,0 +1,6 @@
+language: ruby
+sudo: false
+bundler_args: --without development
+before_script:
+  - bundle install
+  - rake db:schema:load
