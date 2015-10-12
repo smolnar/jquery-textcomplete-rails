@@ -33,6 +33,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'rspec-core'
   gem 'rspec-rails', '~> 3.0.0.beta'
 end
 
