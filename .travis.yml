@@ -4,7 +4,5 @@ before_install:
   - cd spec/dummy
 install:
   - bundle install --without development
-before_script:
-  - cd spec/dummy
 script:
   - bundle exec rspec spec
