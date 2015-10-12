@@ -3,6 +3,6 @@ sudo: false
 before_install:
   - cd spec/dummy
 install:
-  - bundle install --without development
+  - bundle install
 script:
   - bundle exec rspec spec
