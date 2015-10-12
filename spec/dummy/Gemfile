@@ -38,6 +38,7 @@ group :development, :test do
 end
 
 gem 'jquery-textcomplete-rails', path: "#{File.dirname(__FILE__)}/../../"
+gem 'test-unit'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
@@ -50,3 +51,4 @@ gem 'jquery-textcomplete-rails', path: "#{File.dirname(__FILE__)}/../../"
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
