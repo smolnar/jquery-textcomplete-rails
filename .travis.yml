@@ -1,6 +1,10 @@
 language: ruby
 sudo: false
+before_install:
+  - cd spec/dummy
+install:
+  - bundle install --without development
 before_script:
-  - cd $TRAVIS_BUILD_DIR/project/spec/dummy && bundle install --without development
+  - cd spec/dummy
 script:
-  - cd $TRAVIS_BUILD_DIR/project/spec/dummy && bundle exec rspec spec
+  - bundle exec rspec spec
