@@ -1,7 +1,7 @@
 module Jquery
   module Textcomplete
     module Rails
-      VERSION = '0.1.5'
+      VERSION = '1.8.0'
     end
   end
 end
